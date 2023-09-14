@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Proxy Loader",
+    "version": "1.0.0",
+    "background":{
+        "service_worker":"service-worker.js"
+    },
+    "permissions":[
+        "proxy",
+        "webRequest",
+        "webRequestAuthProvider"
+    ],
+    "host_permissions":[
+        "<all_urls>"
+    ],
+    "minimum_chrome_version": "108"
+}
